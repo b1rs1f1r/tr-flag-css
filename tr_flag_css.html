@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Türk Bayrağı</title>
+  
+  <style>
+  	
+  	* {
+  		margin: 0;
+  		padding: 0;
+  	}
+
+  	html {
+  		overflow: hidden;
+  		background-color: black;
+  	}
+
+  	body {
+  		font-family: Arial;
+  		display: block;
+  		width: 600px;
+  		height: 400px;
+  		background-color: #E30917;
+  		margin: 0 auto;
+  	}
+
+  	.turquia {
+  		position: relative;
+  		height: 100%;
+  		width: 100%;
+  	}
+  	.turquia:before, .turquia:after {
+  		color: #FFFFFF;
+  		content: "";
+  		display: inline-block;
+  		position: absolute;
+  	}
+
+  	.turquia:before {
+  		background-color: #E30917;
+  		border-radius: 100px 100px 100px 100px;
+  		box-shadow: -42px 0 0 35px white;
+  		left: 200px;
+  		padding: 90px;
+  		top: 100px;
+  	}
+
+  	.turquia:after {
+  		content: "★";
+  		display: block;
+  		font-size: 90px;
+  		left: 375px;
+  		top: 135px;
+  		-webkit-transform: rotate(50deg);
+  		-moz-transform: rotate(50deg);
+  		-ms-transform: rotate(50deg);
+  		-o-transform: rotate(50deg);
+  		transform: rotate(50deg);
+  		width: 100px;
+  	}
+
+  </style>
+
+</head>
+
+<body>
+  <div class="turquia"></div>
+  
+  
+</body>
+</html>
